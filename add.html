@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>添加修改新闻</title>
+		<style>
+			*{margin:0 auto;}
+			body{text-align:center;}
+			table{width:80%;
+			margin:100px auto;}
+			td{border-bottom:2px solid #666;}
+		</style>
+	</head>
+	<body>
+		<div>
+		<form action="add_news.php" method="post">
+			<table cellspacing="0">
+				<tr>
+					<td>标题</td>
+					<td>作者</td>
+					<td>内容</td>
+					<td>日期</td>
+					<td>添加</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="title"></td>
+					<td><input type="text" name="author"></td>
+					<td><input type="text" name="content"></td>
+					<td><input type="text" name="date"></td>
+					<td><input type="submit" name="add" value="添加"></td>
+				</tr>
+			</table>
+		</form>
+		
+		</div>
+	</body>
+</html>
