@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>查询新闻</title>
+		<style>
+			*{margin:0 auto;}
+			body{text-align:center;}
+			table{width:90%;}
+			td{width:16%;
+			border-bottom:2px solid #666;}
+		</style>
+	</head>
+	<body>
+		<div>
+		<form action="edit_news.php" method="post">
+			<table>
+				<tr>
+					<td>标题</td>
+					<td>作者</td>
+					<td>内容</td>
+					<td>日期</td>
+					
+				</tr>
+				<tr>
+					<td><input type="text" name="title"></td>
+					<td><input type="text" name="author"></td>
+					<td><input type="text" name="content"></td>
+					<td><input type="text" name="date"></td>
+	
+				</tr>
+				<tr>
+					<td><input type="submit" name="add" value="查询"></td>
+				</tr>
+			</table>
+		</form>
+		</div>
+	</body>
+	
+	
+</html>
